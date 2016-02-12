@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <link rel="stylesheet/less" type="text/css" href="css.less" />
+        <link rel="stylesheet/less" type="text/css" href="bootstrap.less" />
+        <script>less={env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false};</script>
+        <script src="less.js"></script>
+        <script>less.watch();</script>
+    </header>
+    <body>
+        <div class="tediv">hello world.</div>
+        
+	<div class="row">
+		<div class="col-xs-4">
+            <div class="thumbnail">
+                <img data-src="holder.js/100%x200" alt="100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE5MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTUyY2U0NmRlNjUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTJjZTQ2ZGU2NSI+PHJlY3Qgd2lkdGg9IjE5MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI3MSIgeT0iMTA0LjgiPjE5MngyMDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="height: 64px; width: 64px; display: block;">
+                <h3>书目检索</h3>
+            </div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="inquirebook" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top:5px;">
+						<dt><img  width="60px" height="60px" src="express/resources/images/others/searchbook.png"></dt>
+						<dd style="margin-top:10px;">书目检索</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="apponitbook" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top:5px;">
+						<dt><img  width="60px" height="60px" src="express/resources/images/others/bookreserve.png"></dt>
+						<dd style="margin-top:10px;">图书预约</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="renewbook" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top:5px;">
+						<dt><img  width="60px" height="60px" src="express/resources/images/others/bookrenew.png"></dt>
+						<dd style="margin-top:10px;">借阅续借</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="mydume" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top: 5px;">
+						<dd><img width="60px" height="60px" src="express/resources/images/others/dume.png"></dd>
+						<dt style="margin-top:10px;">我的Dume</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="returnbook" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top: 10px;">
+						<dd><img width="50px" height="50px" src="express/resources/images/others/bookreturn.png"></dd>
+						<dt style="margin-top:15px;">图书归还</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="myfriend" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top: 5px;">
+						<dd><img width="60px" height="60px" src="express/resources/images/others/myfriends.png"></dd>
+						<dt style="margin-top:10px;">我的好友</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="publicactivity" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top: 5px;">
+						<dd><img width="60px" height="60px" src="express/resources/images/others/pub.png"></dd>
+						<dt style="margin-top:10px;">公益活动</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="list-group">
+				<div id="booksalon" class="list-group-item home-left-list" style="line-height:10px;background-color: rgb(255, 255, 255);border-color: rgb(0, 0, 0);">
+					<dl style="margin-top: 5px;">
+						<dd><img width="60px" height="60px" src="express/resources/images/others/sl.png"></dd>
+						<dt style="margin-top:10px;">图书沙龙</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <!--body begin-->
+    <div id="page-wrapper">
+
+
+
+
+
+                <div class="media"> <div class="media-left"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTJiZmZiNTEzZSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MmJmZmI1MTNlIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> <div class="media-body"> <h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div> <div class="media-right"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTJiZmZiNjU1NiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MmJmZmI2NTU2Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> </div>    
+        <div class="list-group">
+            <a href="#" class="list-group-item">
+				<div class="media"> 
+					<div class="media-left"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTI0ZjRmOWFlZSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MjRmNGY5YWVlIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> 
+				</div>  	
+            </a>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        </div>
+
+		<ul class="list-group" id="lstMenus">
+			<li class="list-group-item" id="mnuTemp" menuitem="true">
+				<div class="media"> 
+					<div class="media-left"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTI0ZjRmOWFlZSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MjRmNGY5YWVlIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> 
+				</div>  	
+			</li>
+			<li class="list-group-item" id="mnuTemp" menuitem="true">
+				<div class="media"> 
+					<div class="media-left"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTI0ZjRmOWFlZSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MjRmNGY5YWVlIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> 
+					<div class="media-body"> <h4 class="media-heading">Nested media heading</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div> 
+				</div>  	
+			</li>
+		  	<li class="list-group-item" id="mnuDigitalcertificate" menuitem="true">
+	  			<div class="media"> 
+	  				<div class="media-left"> <a href="#"> <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTI0ZjRmOWFlZSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MjRmNGY5YWVlIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuOCI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;"> </a> </div> 
+	  				<div class="media-body"> <h4 class="media-heading">软件审核</h4></div> 
+	  				<div class="media-right"> <a href="#"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> </a> </div>
+	  			</div>  	
+	  		</li>
+		  <li class="list-group-item">Morbi leo risus</li>
+		  <li class="list-group-item">Porta ac consectetur ac</li>
+		  <li class="list-group-item">Vestibulum at eros</li>
+		</ul>	    
+	    
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+		<div>a</div>
+	</div>
+
+
+    <!--body end-->
+    
+    <!--footer begin-->
+    <div class="container">
+		<ul class="nav nav-tabs navbar-fixed-bottom">
+		  <li role="presentation" class="active"><a href="#">Home</a></li>
+		  <li role="presentation"><a href="#">Profile</a></li>
+		  <li role="presentation"><a href="#">Messages</a></li>
+		</ul>
+	</div>
+    
+    <!--footer end-->
+    	
+        
+    </body>
+</html>
